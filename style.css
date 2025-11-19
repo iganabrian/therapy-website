@@ -47,8 +47,8 @@ header{
 }
 
 .logo{
-     font-size: 3rem;
-  font-weight: 700;
+    font-size: 3rem;
+    font-weight: 700;
     color: #1a1a;
 }
 
@@ -318,10 +318,10 @@ border: 2px black;
 }
 .footer{
     justify-content: center;
-    height: 5rem;
+    height: 2rem;
     background-color:  #1a1a;;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 @media (max-width:768px){
