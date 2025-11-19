@@ -86,9 +86,10 @@ header{
 button{
     font-size: 2rem;
     border: none;
-    background-color: #1a1a;
+    background-color: #ffff;
     padding: 0.9rem;
     border-radius: 0.6rem;
+    width: 20%;
 }
 
 button:hover{
@@ -266,13 +267,25 @@ border: 2px black;
     gap: 1.5rem;
 }
 .contact-us-container .our-social-media{
-    justify-content: stretch;
+    display: grid;
+    justify-content: flex-start;
+   
 }
+
+h4{
+    font-size: 2rem;
+    color: #1a1;
+}
+.fa-building-circle-arrow-right,
+.fa-at,
+.fa-phone,
+.fa-x-twitter,
 .fa-square-pinterest, 
 .fa-facebook,
 .fa-whatsapp,
 .fa-instagram{
     font-size: 16px;
+    color: #1a1;
 }
 .contact-us-container .our-social-media,
 .contact-us-container .message-us{
@@ -280,17 +293,16 @@ border: 2px black;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    color: #1a1;
+    color: #1a1a1a;
 }
 
-.contact-us-container .quick-links{
-   font-size: 2rem;
-   color: #1a1a;
+.contact-us-container .message-us,
+.contact-us-container .message-us input,
+.contact-us-container .message-us textarea{
+    background:  #1a1a;
 }
 
-.contact-us-container .our-social-media .fa-x-twitter{
-    font-size: 16px;
-}
+
 .contact-us-container .our-social-media a,
 .contact-us-container .quick-links a{
    color: #1a1a;
@@ -307,26 +319,28 @@ border: 2px black;
     padding-bottom: 2rem;
     font-size: 2rem;
     font-weight: 600;
-    color: #1a1a;
+    color: #ffff;
 }
 
 .contact-us-container .message-us input{
     padding-bottom: 2rem;
     margin-bottom: 1rem;
     width: 100%;
-     border-color: #1a1a;
+    border-color: #ffff;
+    border-radius: 16px;
+    
 }
-
 
 .contact-us-container .message-us textarea{
     margin-bottom: 1rem;
     width: 100%;
-    border-color: #1a1a;;
+    border-color: #ffff;
+    border-radius: 16px;
 }
 .footer{
     justify-content: center;
     height: 2rem;
-    background-color:  #1a1a;;
+    background-color:  #1a1a;
     text-align: center;
     font-size: 1.2rem;
 }
