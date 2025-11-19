@@ -16,7 +16,9 @@ html{
     scroll-behavior:smooth
 }
 
-
+body{
+    background-attachment: scroll;
+}
 p{
     font-size: clamp(16px, 0.5vw, 24px);
 
@@ -132,6 +134,7 @@ main{
     background: linear-gradient( rgba(0, 50, 0, 0.8),rgba(0, 50, 0, 0.8)),  url(images/cambg_7.jpg);
     background-position: center;
     background-size: cover;
+    overflow: hidden;
     background-repeat: no-repeat;
     align-items: center;
     justify-content: center;
@@ -321,7 +324,7 @@ border: 2px black;
     font-size: 2rem;
 }
 
-@media (max-width:991px){
+@media (max-width:768px){
     .navbar{
         position: absolute;
         top: 100%;
@@ -341,5 +344,18 @@ border: 2px black;
    .navbar.active{
        display: initial;
    }
+   main{
+        background-size: contain;
+        height: 50vh;
+        padding: 1rem;
+   }
+
+   main .content h1{
+    font-size: 2rem;
+    }
+
+main .content h2{
+    font-size: 1.5rem;
+}
 
 }
