@@ -346,7 +346,7 @@ border: 2px black;
    }
    main{
         background-size: contain;
-        height: 50vh;
+        height: 90vh;
         padding: 1rem;
    }
 
@@ -357,5 +357,6 @@ border: 2px black;
 main .content h2{
     font-size: 1.5rem;
 }
+
 
 }
