@@ -265,11 +265,18 @@ border: 2px black;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
 }
-
+.contact-us-container .our-social-media{
+    justify-content: stretch;
+}
+.fa-square-pinterest, 
+.fa-facebook,
+.fa-whatsapp,
+.fa-instagram{
+    font-size: 16px;
+}
 .contact-us-container .our-social-media,
-.contact-us-container .quick-links,
 .contact-us-container .message-us{
-    padding: 3rem;
+    padding: clamp(1rem, 5vw, 3rem);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -281,6 +288,9 @@ border: 2px black;
    color: #1a1a;
 }
 
+.contact-us-container .our-social-media .fa-x-twitter{
+    font-size: 16px;
+}
 .contact-us-container .our-social-media a,
 .contact-us-container .quick-links a{
    color: #1a1a;
