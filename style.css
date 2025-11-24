@@ -237,6 +237,48 @@ border: 2px black;
     width: 100%;
 }
 
+.testimonials{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.container-left h2{
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+.container-right{
+    display: grid;
+    gap: 1.5rem;
+}
+
+.card{
+    padding: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    background-color: #1a1;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 30px #1a1;
+}
+
+.card img{
+    max-width: 75px;
+    border-radius: 100%;
+}
+
+.card-content{
+    display: flex;
+    gap: 1rem;
+}
+
+.card-details p{
+    font-style: italic;
+    color: #333;
+    margin-bottom: 1z;
+}
+
 .blogs-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
