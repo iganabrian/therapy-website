@@ -234,13 +234,18 @@ border: 2px black;
 }
 
 .our-team-container .team .image img{
-    width: 100%;
+    width: 85%;
+    border-radius: 15px;
 }
 
 .testimonials{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
+}
+
+.container-left{
+        display: inline-block;
 }
 
 .container-left h2{
@@ -382,7 +387,7 @@ h4{
     font-size: 1.2rem;
 }
 
-@media (max-width:768px){
+@media (max-width:940px){
     .navbar{
         position: absolute;
         top: 100%;
@@ -401,6 +406,10 @@ h4{
 
    .navbar.active{
        display: initial;
+       justify-content: center;
+       justify-items: center;
+       background: linear-gradient(rgba(0, 50, 0, 0.8), rgba(0, 50, 0, 0.8)), url(images/cambg_7.jpg);
+       background-size: contain;
    }
 
 }
