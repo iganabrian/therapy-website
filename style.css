@@ -409,7 +409,7 @@ h4{
        justify-content: center;
        justify-items: center;
        background: linear-gradient(rgba(0, 50, 0, 0.8), rgba(0, 50, 0, 0.8)), url(images/cambg_7.jpg);
-       background-size: contain;
+       background-size: cover;
        height: 100vh;
    }
 
